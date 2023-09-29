@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ float r, s, l, b, area1, peri1, area2, peri2, area3, peri3;
+ printf("enter the raduis of circle, side of square, length & breadth of rectangle");
+ scanf("%f%f%f%f", &r, &s, &l, &b);
+ area1= 3.14*r*r;
+ peri1= 2*3.14*r;
+ area2= s*s;
+ peri2= 4*s;
+ peri3= 2*(l+b);
+ area3= l*b;
+ printf("Area of circle=%f\n perimter of circle=%f\n area of square=%f\n perimeter of square=%f\n area of rectangle=%f\n perimter of rectangle=%f", area1, peri1, area2, peri2, area3, peri3);
+ return 0;
+}
