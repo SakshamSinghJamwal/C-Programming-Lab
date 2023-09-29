@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a, b, add, sub, mult, div;
+    printf("Enter two numbers:");
+    scanf("%d %d", &a, &b);
+    add= a+b;
+    sub= a-b;
+    mult= a*b;
+    div= a/b;
+    printf("Addition=%d\n Subtraction=%d\n Multiplication=%d\n Division=%d\n", add, sub, mult, div);
+    return 0;
+}
