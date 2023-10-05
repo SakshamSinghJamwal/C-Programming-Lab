@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{
+    float l, b, r, s, z, y;
+    int x;
+    printf("enter 1 for circle, 2 for square, 3 for rectangle");
+    scanf("%d", &x);
+    switch(x)
+    {
+    case 1:
+            printf("enter radius");
+            scanf("%f", &r);
+            z=3.14*r*r;
+            y=3.14*2*r;
+            printf("Area of cirlce is %f\n Perimater of circle is %f", z, y);
+            break;
+    case 2:
+            printf("enter side");
+            scanf("%f", &s);
+            z=s*s;
+            y=4*s;
+            printf("Area of square is %f\n Perimeter of square is %f", z, y);
+            break;
+    case 3:
+             printf("enter length and breadth");
+            scanf("%f%f", &l, &b);
+            z=l*b;
+            y=2*(l+b);
+            printf("Area of rectangle is %f\n Perimter of %f", z, y);
+            break;
+            }
+            
+}
